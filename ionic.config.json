@@ -1,0 +1,7 @@
+{
+  "name": "taxo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
