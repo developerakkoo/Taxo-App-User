@@ -1,0 +1,26 @@
+
+
+<ion-content color="secondary" >
+    <img class="lef" src="./assets/Caret left.png">  
+    <img  class="png" src="./assets/taxo.png">
+    <img class="dot" src="./assets/Ellipse 1.png">
+  <img class="location" src="./assets/location.png">
+  <input class="one" type="text" placeholder="Enter Source">
+  <img class="des" src="./assets/destination.png">
+  <input class="two" [(ngModel)]="searchTerm" type="text" placeholder="Enter Your Destination"> 
+
+  <table style="margin-top: 65%; text-align: center; margin-left: 30%;">
+    <tbody>
+      <tr *ngFor="let city of cities | filter:searchTerm">
+        <hr>
+       <td routerLink="/get-car"  scope="col">{{city.city}}</td> 
+       <hr>
+      </tr>
+    </tbody>
+  </table>
+  
+</ion-content>
+
+<!-- <div class="names" *ngFor="let city of cities | filter:searchTerm">
+  <p class="name" style="color: white;" routerLink="/get-car">{{city.city}}</p>
+</div> -->

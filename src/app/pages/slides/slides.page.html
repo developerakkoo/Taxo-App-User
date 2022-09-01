@@ -1,0 +1,33 @@
+<ion-content color="primary" class="" [fullscreen]="true">
+  <ion-slides #slides pager="true" [options]="option">
+    <ion-slide>    
+          <img class="logo" src="./assets/taxo.png">
+          <img class="dot" src="./assets/Ellipse 1.png">
+           
+      <img class="round" src="./assets/undraw_traveling_re_weve 1.png">        
+            <h1 class="head1"><span style="color: #FFC409;">Multiplied</span> earnings</h1>
+          
+            <p class="par">Perceive up to 3 times the <span>amount of the ride</span></p>
+             
+        <img (click)="goNext()" class="slide1" src="./assets/Slider.png">
+    </ion-slide>
+
+    <ion-slide>    
+          <img class="logo" src="./assets/taxo.png">
+          <img class="dot" style="margin-bottom: 15px;" src="./assets/Ellipse 1.png">        
+        <img class="round" src="./assets/undraw_order_ride_re_372k (1) 1.png"> 
+            <h1 class="head2"><span style="color: #FFC409;">Exceptional</span> bonuses</h1>           
+            <p class="par1">Up to 100$ welcome bonus <span>the fast week</span></p>          
+        <img (click)="goNext()" class="slide1" src="./assets/Slider.png">      
+    </ion-slide>
+
+    <ion-slide> 
+          <img class="logo" src="./assets/taxo.png">
+          <img class="dot" style="margin-bottom: 15px;" src="./assets/Ellipse 1.png">
+        <img class="round" src="./assets/undraw_connected_world_wuay 1.png">
+            <h1 class="head3"><span style="color: #FFC409;">Quick</span> start</h1>      
+            <p class="par2">Your registartion is validated <span>within 24 hours.</span> </p>      
+        <img routerLink="/login" class="slide1" src="./assets/Slider.png">
+    </ion-slide>
+  </ion-slides>
+</ion-content>

@@ -1,20 +1,21 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+<!-- <ion-header > -->
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-menu-button menu="main-menu"></ion-menu-button>
+    </ion-buttons>
+      <img class="png" src="./assets/taxo.png">
+      <img class="dot" src="./assets/Ellipse 1.png">
   </ion-toolbar>
-</ion-header>
+<!-- </ion-header>/ -->
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+
+<ion-content color="secondary" class="ion-padding">
+
+    <img class="location" src="./assets/location.png">
+    <input class="one" type="text" placeholder="Enter Source">
+
+    <img class="des" src="./assets/destination.png">
+    <input class="two" routerLink="/search-destination" type="text" placeholder="Enter Your Destination">
+    <capacitor-google-maps #map></capacitor-google-maps>
 </ion-content>

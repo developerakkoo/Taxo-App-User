@@ -1,0 +1,34 @@
+.menu-header-bg{
+    background: #001236;
+}
+
+.header-content{
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+
+    img{
+        width: 80px;
+        height: 80px;
+    }
+
+    h2{
+        font-weight: 700;
+        margin-left: 15px;
+    }
+    P{
+        font-size: 12px;
+        font-weight: 100;
+        margin-left: 15px;
+    }
+
+}
+
+ion-list{
+   
+         padding-top: 0;
+         padding-bottom: 0;
+
+}

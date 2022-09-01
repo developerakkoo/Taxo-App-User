@@ -1,0 +1,60 @@
+.lef{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 49px;
+    top: 41px;
+    
+    border: 3px solid #F4F5F8;
+    border-radius: 10px;
+}
+
+.big{
+    position: absolute;
+width: 144px;
+height: 76px;
+left: 132px;
+top: 19px;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 76px;
+}
+
+h4{
+position: absolute;
+width: 133px;
+height: 21px;
+left: 52px;
+top: 366px;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+
+color: #F4F5F8;
+}
+
+input{
+position: absolute;
+width: 310px;
+height: 46px;
+left: 52px;
+top: 402px;
+background-color:  #001236;
+border: 1px solid #F4F5F8;
+border-radius: 10px;
+}
+
+button{
+position: absolute;
+width: 210px;
+height: 46px;
+left: 110px;
+top: 470px;
+background-color:  #FFC409;
+border-radius: 10px;
+font-weight: 700;
+}

@@ -1,3 +1,129 @@
+<!-- <ion-app >
+  <ion-menu menuId="main-menu" content-id="main">     
+     <img style="width:50px; height:50px;" src="./assets/Unsplash.png">
+        <h3>Kunal Jadhav</h3>
+     
+      <ion-content>
+        <ion-list>
+          <ion-menu-toggle>
+            <ion-item>
+              <ion-icon name="home-outline"></ion-icon>
+              <ion-label>HOME</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+
+          <ion-menu-toggle>
+            <ion-item>
+              <ion-icon name="cash-outline"></ion-icon>
+              <ion-label>PAYMENT HISTORY</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+
+          <ion-menu-toggle>
+            <ion-item>
+              <ion-icon name="locate-outline"></ion-icon>
+              <ion-label>RIDE HISTORY</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+
+          <ion-menu-toggle>
+            <ion-item>
+              <ion-icon name="person-outline"></ion-icon>
+              <ion-label>INVITE FRIENDS</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+
+          <ion-menu-toggle>
+            <ion-item routerLink="/settings">
+              <ion-icon name="settings-outline"></ion-icon>
+              <ion-label>SETTINGS</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+
+          <ion-menu-toggle>
+            <ion-item>
+              <ion-icon name="mic-outline"></ion-icon>
+              <ion-label>ONLINE SUPPORT</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+
+          <ion-menu-toggle>
+            <ion-item>
+              <ion-icon name="log-out-outline"></ion-icon>
+              <ion-label>LOGOUT</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+        </ion-list>
+      </ion-content>
+ 
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app> -->
+
+
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-menu menuId="main-menu" contentId="main">
+    <ion-content color="secondary">
+  <div class="menu-header-bg"></div>
+  <div class="header-content">
+   <img style="background: #001D55; border-radius:70px;" src="./assets/Unsplash.png">
+   <ion-label>
+    <h2>Kunal Jadhav</h2>
+    <p>Pune.</p>
+   </ion-label>
+  </div>
+  
+  <ion-list style="margin-top:250px;">
+    <ion-menu-toggle>
+      <ion-item color="secondary" lines="none" style="">
+        <ion-icon color="warning" name="home-outline"></ion-icon>
+        <ion-label style="margin-left: 30px;">HOME</ion-label>
+      </ion-item>
+    </ion-menu-toggle>
+
+    <ion-menu-toggle>
+      <ion-item color="secondary" lines="none">
+        <ion-icon color="warning" name="cash-outline"></ion-icon>
+        <ion-label style="margin-left: 30px;">PAYMENT HISTORY</ion-label>
+      </ion-item>
+    </ion-menu-toggle>
+
+    <ion-menu-toggle>
+      <ion-item color="secondary" lines="none">
+        <ion-icon color="warning" name="locate-outline"></ion-icon>
+        <ion-label style="margin-left: 30px;">RIDE HISTORY</ion-label>
+      </ion-item>
+    </ion-menu-toggle>
+
+    <ion-menu-toggle>
+      <ion-item color="secondary" lines="none">
+        <ion-icon color="warning" name="person-outline"></ion-icon>
+        <ion-label style="margin-left: 30px;">INVITE FRIENDS</ion-label>
+      </ion-item>
+    </ion-menu-toggle>
+
+    <ion-menu-toggle>
+      <ion-item routerLink="/settings" color="secondary" lines="none">
+        <ion-icon color="warning" name="settings-outline"></ion-icon>
+        <ion-label style="margin-left: 30px;">SETTINGS</ion-label>
+      </ion-item>
+    </ion-menu-toggle>
+
+    <ion-menu-toggle>
+      <ion-item color="secondary" lines="none">
+        <ion-icon color="warning" name="mic-outline"></ion-icon>
+        <ion-label style="margin-left: 30px;">ONLINE SUPPORT</ion-label>
+      </ion-item>
+    </ion-menu-toggle>
+
+    <ion-menu-toggle>
+      <ion-item color="secondary" lines="none">
+        <ion-icon color="warning" name="log-out-outline"></ion-icon>
+        <ion-label style="margin-left: 30px;">LOGOUT</ion-label>
+      </ion-item>
+    </ion-menu-toggle>
+  </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
 </ion-app>
